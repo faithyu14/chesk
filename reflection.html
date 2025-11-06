@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
     <style>
+              .profile-photo {
+        display: block;
+        margin: 0 auto 2rem auto;
+        width: 50%;
+        max-width: 300px;
+        border-radius: 50%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease;
+      }
+      .profile-photo:hover {
+        transform: scale(1.05);
+      }
         body {
             font-family: 'Roboto', sans-serif;
             line-height: 1.6;
@@ -135,10 +147,10 @@
                 <p>Through this experience, I gained a deeper appreciation for the role of educators. Teaching requires not only knowledge and preparation but also creativity, empathy, and resilience. It reinforced my understanding that learning is a shared process—both teacher and student grow together through meaningful interaction.</p>
             </div>
             <div class="photo-row">
-                <img src="IMG_9036.jpg"  class="interactive-media" data-lightbox="true" />
-                <img src="IMG_9035.jpg"  class="interactive-media" data-lightbox="true" />
-              <img src="IMG_9033.jpg"  class="interactive-media" data-lightbox="true" />
-                <img src="IMG_9019.jpg"  class="interactive-media" data-lightbox="true" />
+                <img src="IMG_9036.jpg"  class="profile-photo interactive-media" data-lightbox="true" />
+                <img src="IMG_9035.jpg"  class="profile-photo interactive-media"  data-lightbox="true" />
+              <img src="IMG_9033.jpg"  class="profile-photo interactive-media"  data-lightbox="true" />
+                <img src="IMG_9019.jpg"  class="profile-photo interactive-media" data-lightbox="true" />
                 
             </div>
             
@@ -150,5 +162,6 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
